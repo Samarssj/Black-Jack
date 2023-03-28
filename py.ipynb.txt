@@ -12,7 +12,7 @@ playing = True
 # CLASSES
 
 
-class Card:  # Creates all the cards
+class Card:  # Creates all the cards to code 
 
     def __init__(self, suit, rank):
         self.suit = suit
@@ -111,7 +111,7 @@ def hit_or_stand(deck, hand):   # hit or stand
         else:
             print("Sorry! I did not understand that! Please try again!")
             continue
-        break
+        break;
 
 
 def show_some(player, dealer):
@@ -187,7 +187,7 @@ while True:
 
         if player_hand.value > 21:
             player_busts(player_hand, dealer_hand, player_chips)
-            break
+            break;
 
     if player_hand.value <= 21:
 
